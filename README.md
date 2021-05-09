@@ -11,4 +11,4 @@
 [![JAVASCRIPT](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=css&logoColor=black&color=FFFF00)](#)
 <br>
 💻Confira aqui o resultado!
-https://keidsondesigner.github.io/calc-neomorfismo/
+https://keidsondesigner.github.io/calc-neumorfismo/
