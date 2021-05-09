@@ -1,0 +1,162 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li, ol, a {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/*//////////        CALCULADOR       /////////*/
+
+.container-bg {
+  background: #ecf0f3;
+    padding-top: 226px;
+    padding-bottom: 200px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0px auto;
+  background: #F8F9FA;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+}
+
+.calculadora {
+  flex: 1 1 360px;
+}
+.container h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #565657;
+}
+
+
+.display {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: right;
+  border: none;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+
+
+  color: #565657;
+  background: #F7F8FA;
+  box-shadow: inset 2px 2px 2px #cbced1,
+              inset -4px -4px 4px #ffffff;
+}
+
+.display:focus {
+  outline: none;
+}
+
+
+button.btn.btn-eq {
+  background: #606DFA;
+  color: #fff;
+}
+
+button.btn.btn-eq:hover {
+  color: #565657;
+}
+
+.btn-num {
+  color: #9396B5;
+}
+
+.operacao, .btn-clear {
+  color:#606DFA;
+  
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  
+
+  font-size: 1em;
+  border: none;
+  background: #ecf0f3;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+td {
+  padding: 5px 5px ;
+}
+
+
+.footer {
+  display: flex;
+  height: 40px;
+  background: #606DFA;
+  align-items: center;
+}
+
+.footer p {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  font-size: .8em;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 414px) {
+  .calculadora {
+    width: 300px;
+  }
+  .container {
+    max-width: 340px;
+    
+}
+}
+
+@media only screen and (max-width: 375px) {
+  .calculadora {
+    width: 300px;
+  }
+  .container {
+    max-width: 340px;
+    
+}
+}
