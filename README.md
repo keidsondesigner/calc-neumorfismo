@@ -1,6 +1,6 @@
 <a href="https://imgur.com/CJHZfbL"><img src="https://i.imgur.com/CJHZfbL.png" title="source: imgur.com" /></a>
 
-# 📱 calc-neomorfismo.
+# 📱 calc-neumorfismo.
 > Projeto de estudo do neomorfismo com css<br>
 > Esse repositório tem como objetivo principal de apresentar meus estudos e aplicar em projetos pessoias.
 
